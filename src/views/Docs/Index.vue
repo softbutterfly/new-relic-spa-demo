@@ -2,8 +2,7 @@
   <a-layout>
     <nr-sider
       :collapsed="collapsed"
-      :collapse="onCollapse"
-      :breakpoint="onBreakpoint"/>
+      :collapse="onCollapse"/>
     <a-layout>
       <nr-header
         :showSider="collapsed"
@@ -30,10 +29,6 @@ export default {
   methods: {
     onCollapse (collapsed, type) {
       this.collapsed = !this.collapsed
-      console.log(collapsed, type)
-    },
-    onBreakpoint (broken) {
-      console.log(broken)
     }
   }
 }
