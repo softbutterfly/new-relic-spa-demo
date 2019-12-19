@@ -40,12 +40,10 @@ export default {
       this.previewVisible = false
     },
     handlePreview (file) {
-      console.log(file)
       this.previewImage = file.url || file.thumbUrl
       this.previewVisible = true
     },
     handleChange ({ fileList }) {
-      console.log(fileList)
       this.fileList = fileList
     },
     imageProcessing (file) {

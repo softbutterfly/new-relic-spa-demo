@@ -94,7 +94,6 @@ router.beforeEach((to, from, next) => {
   if (to.name === NOT_FOUND && newrelic !== null) {
     let interaction = newrelic.interaction()
     interaction.setAttribute('errorCode', '404')
-    interaction.getContext(ctx => { console.log(ctx) })
   }
 
   next()

@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+  publicPath: '/new-relic-spa-demo',
   css: {
     loaderOptions: {
       less: {
