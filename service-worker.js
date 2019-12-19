@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/new-relic-spa-demo/precache-manifest.56c728faf8aa79b8aece4496d9de01a6.js"
+  "/new-relic-spa-demo/precache-manifest.aa9d759abff167d4204fe9e461e2c7ef.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "newrelic-spa-demo"});
